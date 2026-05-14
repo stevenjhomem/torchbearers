@@ -1,0 +1,11 @@
+services:
+  torchbearers-data:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    image: torchbearers-data:latest
+    container_name: torchbearers-data
+    ports:
+      - "8080:80"
+    restart: unless-stopped
