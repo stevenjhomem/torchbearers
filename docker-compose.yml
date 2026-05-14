@@ -1,11 +1,18 @@
 services:
-  torchbearers-data:
+  torchbearers:
     build:
       context: .
       dockerfile: Dockerfile
       target: production
-    image: torchbearers-data:latest
-    container_name: torchbearers-data
+    container_name: torchbearers
     ports:
       - "8080:80"
     restart: unless-stopped
+    develop:
+      watch:
+        - action: rebuild
+          path: .
+          ignore:
+            - node_modules/
+            - dist/
+            - .git/

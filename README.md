@@ -1,41 +1,20 @@
-# Torchbearers Data
+# Torchbearers
 
-React/Vite single-page marketing site served by Nginx in production.
+React/Vite single-page marketing site built inside Docker and served by Nginx.
 
-## Local Development
+## Run Locally
 
-Run Vite directly:
-
-```bash
-npm install
-npm run dev
-```
-
-Open http://localhost:5173.
-
-## Local Docker
-
-Build the Vite app and run the production-style Nginx container:
+Use one Docker Compose command from this directory:
 
 ```bash
-docker compose up --build -d
+docker compose up --build --watch
 ```
 
 Open http://localhost:8080.
 
-## Local Docker With Live File Updates
+Docker Compose will rebuild the container when source files change.
 
-Use the dev override to run the Vite dev server in Docker:
-
-```bash
-docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
-```
-
-Open http://localhost:5173.
-
-Changes to `src/`, `index.html`, `styles.css`, and `public/` update through Vite.
-
-Stop everything:
+Stop the site with `Ctrl+C`, then remove the container if needed:
 
 ```bash
 docker compose down
