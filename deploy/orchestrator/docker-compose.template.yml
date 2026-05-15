@@ -1,0 +1,13 @@
+services:
+  torchbearers:
+    image: ${IMAGE}
+    container_name: ${APP_NAME}
+    ports:
+      - "${HOST_PORT}:${CONTAINER_PORT}"
+    restart: ${RESTART_POLICY}
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

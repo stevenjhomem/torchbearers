@@ -1,3 +1,6 @@
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 const MAIL_TO =
   'mailto:sjhomem@outlook.com,ivers.jesse@gmail.com,jkeyton77@gmail.com?subject=Torchbearers%20Data%20Discovery%20Call&body=I%20would%20love%20to%20book%20a%20time%20to%20discuss%20how%20Torchbearers%20Data%20might%20help%20us%20use%20AI%20well%20with%20the%20data%20and%20systems%20we%20already%20have.';
 
@@ -356,6 +359,8 @@ export default function App() {
         <Team />
         <FinalCta />
       </main>
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
