@@ -177,7 +177,7 @@ function Process() {
         <p className="eyebrow">The process</p>
         <h2 id="process-title">Four phases. Start at any one.</h2>
         <p className="section-lede">
-          We scope each process to where you actually are. Most clients start at phase one or two.
+          We tailor our process to your current needs. Most clients start at phase one or two.
         </p>
 
         <div className="phase-list">
