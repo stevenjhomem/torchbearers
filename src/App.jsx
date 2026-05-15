@@ -272,7 +272,7 @@ const team = [
     initials: 'JI',
     name: 'Jesse Ivers, PhD',
     role: 'AI/ML, Semantic Layers, Software Architecture',
-    bio: 'PhD in biomedical engineering from the University of Arkansas, where he used machine learning to better understand cancer - training patented ML/DL systems that interpreted optical microscopy data to characterize treatment response and cellular metabolism. Drove MLOps forward while delivering fully productionized ML models at the largest retailer in the world. Now leading the charge at a rapid-growth company as they build out their first AI platforms and products..  ',
+    bio: 'PhD in biomedical engineering from the University of Arkansas, where he used machine learning to better understand cancer - training patented ML/DL systems that interpreted optical microscopy data to characterize treatment response and cellular metabolism. Drove MLOps forward while delivering fully productionized ML models at the largest retailer in the world. Now leading the charge at a rapid-growth company as they build out their first AI platforms and products.',
   },
   {
     initials: 'JK',
