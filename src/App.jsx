@@ -38,7 +38,7 @@ function Nav() {
         <div className="nav-actions">
           <div className="nav-links" aria-label="Section navigation">
             <a href="#approach">Approach</a>
-            <a href="#engagement">Engagement</a>
+            <a href="#process">Process</a>
             <a href="#team">Team</a>
           </div>
           <a className="button button-primary button-small" href={MAIL_TO}>
@@ -50,7 +50,7 @@ function Nav() {
             </summary>
             <div className="mobile-panel">
               <a href="#approach">Approach</a>
-              <a href="#engagement">Engagement</a>
+              <a href="#process">Process</a>
               <a href="#team">Team</a>
             </div>
           </details>
@@ -81,8 +81,8 @@ function Hero() {
           <a className="button button-primary" href={MAIL_TO}>
             Book a discovery call
           </a>
-          <a className="button button-ghost" href="#engagement">
-            See an engagement <span aria-hidden="true">-&gt;</span>
+          <a className="button button-ghost" href="#process">
+            See the process <span aria-hidden="true">-&gt;</span>
           </a>
         </div>
       </div>
@@ -115,7 +115,7 @@ function Approach() {
         <p className="eyebrow">The approach</p>
         <h2 id="approach-title">Your data, empowered. Instant insights for smarter decisions.</h2>
         <p className="approach-lede">
-          Most medium-sized businesses are sitting on a goldmine of data they can't actually use. The information is
+          Most businesses are sitting on a goldmine of data they can't actually use. The information is
           there, but it is trapped in complex systems or buried under technical bottlenecks. We bridge that gap by
           turning raw data into a governed conversational partner for your business.
         </p>
@@ -170,14 +170,14 @@ const phases = [
   },
 ];
 
-function Engagement() {
+function Process() {
   return (
-    <section className="section section-alt section-bordered" id="engagement" aria-labelledby="engagement-title">
+    <section className="section section-alt section-bordered" id="process" aria-labelledby="process-title">
       <div className="section-inner">
-        <p className="eyebrow">The engagement</p>
-        <h2 id="engagement-title">Four phases. Start at any one.</h2>
+        <p className="eyebrow">The process</p>
+        <h2 id="process-title">Four phases. Start at any one.</h2>
         <p className="section-lede">
-          We scope each engagement to where you actually are. Most clients start at phase one or two.
+          We scope each process to where you actually are. Most clients start at phase one or two.
         </p>
 
         <div className="phase-list">
@@ -332,7 +332,7 @@ function FinalCta() {
         <h2 id="cta-title">Let's see what your data could do.</h2>
         <p>
           Twenty minutes on a call. We'll map your current data setup, identify where a semantic layer
-          and agentic workflows could help employees or customers, and tell you what an engagement would
+          and agentic workflows could help employees or customers, and tell you what the process would
           actually look like.
         </p>
 
@@ -354,7 +354,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <Approach />
-        <Engagement />
+        <Process />
         <WhyUs />
         <Team />
         <FinalCta />
