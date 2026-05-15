@@ -1,0 +1,23 @@
+# Torchbearers
+
+Torchbearers builds governed data layers, semantic layers, and AI data agents for small and mid-market teams.
+
+## Core Positioning
+
+Torchbearers helps companies turn existing business data into trusted infrastructure for analytics, conversational interfaces, internal workflow agents, and customer-facing AI experiences.
+
+The company focuses on:
+
+- Data foundations: warehouses, pipelines, keys, timestamps, joins, access patterns, and data quality.
+- Semantic layers: governed metrics, business entities, relationships, definitions, and permissions.
+- Internal agents: secure LLM-powered interfaces for employees to ask questions, analyze performance, and trigger workflows.
+- Customer agents: embedded AI analytics experiences that respect tenancy, permissions, and product context.
+
+## Important URLs
+
+- Homepage: https://torchbearers.ai/
+- Sitemap: https://torchbearers.ai/sitemap.xml
+
+## Contact
+
+Email: hello@torchbearers.ai

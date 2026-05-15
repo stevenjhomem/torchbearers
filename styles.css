@@ -137,7 +137,8 @@ h2 {
 
 .nav-inner,
 .section-inner {
-  width: min(100%, var(--content));
+  width: 100%;
+  max-width: var(--content);
   margin: 0 auto;
 }
 
@@ -198,6 +199,10 @@ h2 {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.nav-actions > .button-small {
+  display: none;
 }
 
 .mobile-menu {
@@ -593,9 +598,34 @@ h2 {
     --section-x: 32px;
   }
 
+  .nav-actions > .button-small {
+    display: inline-flex;
+  }
+
   .hero-actions {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 28px;
+    line-height: 1.15;
+    overflow-wrap: break-word;
+  }
+
+  h2 {
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .eyebrow {
+    letter-spacing: 0.09em;
+    overflow-wrap: break-word;
   }
 }
 
