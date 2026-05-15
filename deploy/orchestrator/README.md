@@ -15,8 +15,8 @@ The app builds to static files and is served by Nginx on container port `80`.
 Build and publish an image first, then update the `IMAGE` value:
 
 ```bash
-docker build -t ghcr.io/stevenjhomem/torchbearers:latest .
-docker push ghcr.io/stevenjhomem/torchbearers:latest
+docker build -t ghcr.io/torchbearers-ai/torchbearers:latest .
+docker push ghcr.io/torchbearers-ai/torchbearers:latest
 ```
 
 ## Compose-Style Orchestrators

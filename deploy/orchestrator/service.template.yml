@@ -1,5 +1,5 @@
 name: torchbearers
-image: ghcr.io/stevenjhomem/torchbearers:latest
+image: ghcr.io/torchbearers-ai/torchbearers:latest
 type: web
 ports:
   - name: http
