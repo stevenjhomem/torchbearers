@@ -278,7 +278,7 @@ const team = [
     initials: 'JK',
     name: 'Jesse Keyton, PhD',
     role: 'Machine learning & analytics',
-    bio: "PhD in mathematics from the University of Arkansas (2020). Dissertation in commutative algebra and homogeneous liaison theory - the math of how algebraic objects link to each other, which turns out to be useful when you're designing how data entities link to each other. Currently a yield strategy engineer at ArcBest; previously taught mathematics at Spartanburg Methodist College and Liberty University.",
+    bio: "PhD in mathematics from the University of Arkansas, now working as both an educator and practitioner of mathematics. Spent three years building analytical tools and predictive models for pricing freight spot quotes at a publicly traded logistics company, directly supporting yield and operations leadership. Now an ML engineer at the same company, owning the full lifecycle of AI/ML applications from problem scoping through production and maintenance.",
   },
   {
     initials: 'SH',
