@@ -278,7 +278,7 @@ const team = [
     initials: 'JK',
     name: 'Jesse Keyton, PhD',
     role: 'Machine learning & analytics',
-    bio: "PhD in mathematics from the University of Arkansas. Spent three years building analytical tools and predictive models for pricing freight spot quotes at a publicly traded logistics company, directly supporting yield and operations leadership. Now an ML engineer at the same company, owning the full lifecycle of AI/ML applications from problem scoping through production and maintenance.",
+    bio: "PhD in mathematics from the University of Arkansas, now working as both an educator and practitioner of mathematics. Spent three years building analytical tools and predictive models for pricing freight spot quotes at a publicly traded logistics company, directly supporting yield and operations leadership. Now an ML engineer at the same company, owning the full lifecycle of AI/ML applications from problem scoping through production and maintenance.",
   },
   {
     initials: 'SH',
