@@ -94,17 +94,17 @@ const approachPoints = [
   {
     title: 'A single source of truth',
     description:
-      'We build a custom semantic model that translates messy database tables into clear business concepts like customer lifetime value, real-time margin, and inventory risk, so your numbers stay accurate and consistent.',
+      'We build custom semantic models that translates messy database tables into clear business concepts like customer lifetime value, real-time margin, and inventory risk, so your numbers stay accurate, consistent, and algined with your business needs.',
   },
   {
     title: 'Talk to your data',
     description:
-      'Through a secure LLM integration, leaders and teams can ask plain-English questions about performance, forecasts, bottlenecks, and growth trends, with answers grounded in your business logic.',
+      'Through a secure LLM integration, leaders and teams can ask plain-English questions about performance, forecasts, bottlenecks, and growth trends, with answers grounded in your business logic and seemlessly generated visualizations to back it up.',
   },
   {
     title: 'Precision over guesswork',
     description:
-      'Unlike generic AI, the system does not guess from vague context. It uses your semantic layer to pull real numbers from real data, giving you insights you can trust to run the business.',
+      'Unlike generic AI, the system does not guess from vague context. It uses your business defintions to pull real numbers from real data, giving you insights you can trust to run the business.',
   },
 ];
 
@@ -148,19 +148,19 @@ const phases = [
     number: '01',
     title: 'Data foundation',
     description:
-      'Stand up the warehouse, pipelines, keys, timestamps, joins, and access patterns. This is the governed data layer every dashboard, model, and agent depends on.',
+      'Stand up the warehouse, pipelines, keys, timestamps, joins, and access patterns. This is the secure data layer every dashboard, model, and agent depends on. It is your goldmine. We will keep it safe.',
   },
   {
     number: '02',
     title: 'Semantic layer',
     description:
-      'Define the metrics, entities, relationships, and business rules your company runs on. One shared semantic layer gives BI, apps, and AI agents the same source of truth.',
+      'Define the metrics, entities, relationships, and business rules your company runs on. One shared, governed semantic layer gives BI, apps, and AI agents the same source of truth.',
   },
   {
     number: '03',
     title: 'Internal agents',
     description:
-      'Give employees governed ways to interact with the semantic layer through chat, workflow agents, and internal tools. They ask, analyze, decide, and act from trusted context.',
+      'Give employees governed ways to interact with the semantic layer through chat, workflow agents, and interactive tools. They ask, analyze, decide, and act from trusted context with full observability to back it up.',
   },
   {
     number: '04',
@@ -242,7 +242,7 @@ const pillars = [
     icon: <KeyIcon />,
     title: 'You own it. Forever.',
     description:
-      'Open standards, your warehouse, your repo, your keys. Your semantic layer and agentic workflows should become company infrastructure, not a dependency on us.',
+      'Open standards, your warehouse, your repo, your keys. Your semantic layer and agentic workflows should become company infrastructure, not a dependency on us. If you want support, we are happy to provide it, but you own the build and the data.',
   },
 ];
 
@@ -272,7 +272,7 @@ const team = [
     initials: 'JI',
     name: 'Jesse Ivers, PhD',
     role: 'AI/ML, Semantic Layers, Software Architecture',
-    bio: 'PhD in biomedical engineering from the University of Arkansas, where he used machine learning to better understand cancer - building ML systems that interpreted optical microscopy data to characterize treatment response and cellular metabolism. Currently a data scientist at Walmart Global Tech building ML at retail scale.',
+    bio: 'PhD in biomedical engineering from the University of Arkansas, where he used machine learning to better understand cancer - training patented ML/DL systems that interpreted optical microscopy data to characterize treatment response and cellular metabolism. Drove MLOps forward while delivering fully productionized ML models at the largest retailer in the world. Now leading the charge at a rapid-growth company as they build out their first AI platforms and products.',
   },
   {
     initials: 'JK',
@@ -301,7 +301,7 @@ function Team() {
           production data systems - in retail, workforce analytics, logistics, and cancer research. We started
           Torchbearers because we kept watching companies underuse what they had already been given: the data,
           context, and hard-won knowledge inside their own business. Our work is to carry that forward - to help
-          teams turn what is already theirs into something clear, governed, and useful.
+          teams turn what is already theirs into something insightful, robust, and actionable.
         </p>
 
         <div className="team-list">
