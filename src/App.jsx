@@ -242,7 +242,7 @@ const pillars = [
     icon: <KeyIcon />,
     title: 'You own it. Forever.',
     description:
-      'Open standards, your warehouse, your repo, your keys. Your semantic layer and agentic workflows should become company infrastructure, not a dependency on us. If you want support, we are happy toprivde it, but you own the build and the data.',
+      'Open standards, your warehouse, your repo, your keys. Your semantic layer and agentic workflows should become company infrastructure, not a dependency on us. If you want support, we are happy to provide it, but you own the build and the data.',
   },
 ];
 
