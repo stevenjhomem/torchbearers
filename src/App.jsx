@@ -353,11 +353,11 @@ function FinalCta() {
   return (
     <section className="cta section-alt" id="cta" aria-labelledby="cta-title">
       <div className="section-inner">
-        <h2 id="cta-title">Let's see what your data could do.</h2>
+        <h2 id="cta-title">Stop paying for generic tools that do not know your business.</h2>
         <p>
-          Twenty minutes on a call. We'll map your current data setup, identify where a semantic layer
-          and agentic workflows could help employees or customers, and tell you what the process would
-          actually look like.
+          Most subscriptions will never understand your workflows, data, clients, or team knowledge.
+          Take twenty minutes on a call and we will help you spot what is scattered, what could be
+          connected, and where a custom agentic platform would actually make work easier.
         </p>
 
         <a className="button button-primary cta-mail-button" href={MAIL_TO}>
