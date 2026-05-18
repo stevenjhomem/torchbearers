@@ -73,9 +73,9 @@ function Hero() {
           It just isn't usable yet.
         </h1>
         <p className="hero-copy">
-          We're the data team you didn't hire. We build the governed data layer, semantic layer,
-          and agentic interaction layer that let employees and customers ask better questions,
-          trigger useful workflows, and trust the answers they get back.
+          We're the data team you didn't hire. We consolidate scattered information across
+          teams, tools, and documents into agentic platforms that help employees and customers
+          ask better questions, trigger useful workflows, and trust the answers they get back.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href={MAIL_TO}>
