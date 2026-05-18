@@ -65,7 +65,7 @@ function Hero() {
     <section className="hero" id="hero" aria-labelledby="hero-title">
       <div className="section-inner">
         <p className="eyebrow eyebrow-accent">
-          Practical AI built on the knowledge already inside your business
+          Practical AI built on the knowledge inherent in your business
         </p>
         <h1 id="hero-title">
           Your data is already valuable.
@@ -75,7 +75,7 @@ function Hero() {
         <p className="hero-copy">
           We're the data team you didn't hire. We pull together the information scattered across
           your tools, files, and team conversations, then turn it into AI systems your people and
-          customers can actually rely on — for better answers, smoother workflows, and decisions
+          customers can rely on — for better answers, smoother workflows, and decisions
           you can trust.
         </p>
         <div className="hero-actions">
@@ -134,11 +134,11 @@ function Approach() {
     <section className="section approach-section section-bordered" id="approach" aria-labelledby="approach-title">
       <div className="section-inner">
         <p className="eyebrow">Our Approach</p>
-        <h2 id="approach-title">Your best knowledge is probably already inside the business.</h2>
+        <h2 id="approach-title">Your best knowledge is probably woven into the business.</h2>
         <p className="approach-lede">
                   Most teams do not need more vague AI talk or disconnected AI products built for the general public.
-                  They need a practical way to find what has already
-                  being said, written, decided, repeated, and learned by your team.
+                  They need a practical way to find what has been said, written, decided, repeated,
+                  and learned by your team.
         </p>
 
         <div className="approach-callout">
@@ -146,7 +146,7 @@ function Approach() {
           <p>
             The answers are there, but they are scattered across tools, conversations, files, and people.
             Torchbearers helps turn that raw material into training, standards, workflows, reporting, and
-            AI systems your team can actually use.
+            AI systems your team can put to work.
           </p>
         </div>
 
@@ -172,7 +172,7 @@ const phases = [
     number: '01',
     title: 'Learn your business',
     description:
-      'We start by asking the right questions and learning the business as a whole: what you need, how work gets done, where knowledge lives now, and what your people already know but have not had a good way to organize.',
+      'We start by asking the right questions and learning the business as a whole: what you need, how work gets done, where knowledge lives now, and what your people know from day-to-day experience but have not had a good way to organize.',
   },
   {
     number: '02',
@@ -184,13 +184,13 @@ const phases = [
     number: '03',
     title: 'Teach the system your language',
     description:
-      'Define what your terms, rules, and workflows actually mean inside your business. This turns scattered data into a shared language your team — and the AI — can trust.',
+      'Define what your terms, rules, and workflows mean inside your business. This turns scattered data into a shared language your team — and the AI — can trust.',
   },
   {
     number: '04',
-    title: 'Build the AI tools your team actually uses',
+    title: 'Build the AI tools your team uses',
     description:
-      'Build the tools your team and customers actually use — chat assistants, automations, internal apps — grounded in your real business context, with guardrails that keep them accurate and safe.',
+      'Build the tools your team and customers use in practice — chat assistants, automations, internal apps — grounded in your real business context, with guardrails that keep them accurate and safe.',
   },
 ];
 
@@ -199,9 +199,9 @@ function Process() {
     <section className="section section-alt section-bordered" id="process" aria-labelledby="process-title">
       <div className="section-inner">
         <p className="eyebrow">The process</p>
-        <h2 id="process-title">Four layers. Built around how your business actually works.</h2>
+        <h2 id="process-title">Four layers. Built around how your business works.</h2>
         <p className="section-lede">
-          We begin by understanding the people, processes, and knowledge you already have. Then we build
+          We begin by understanding the people, processes, and knowledge your business runs on. Then we build
           the technical layers that make that knowledge usable.
         </p>
 
@@ -255,7 +255,7 @@ const pillars = [
     icon: <ToolsIcon />,
     title: 'We do the whole chain.',
     description:
-      'Most boutique data shops stop at dashboards. We go further: connecting your information, teaching the system your business, and building the AI tools your team and customers actually use.',
+      'Most boutique data shops stop at dashboards. We go further: connecting your information, teaching the system your business, and building the AI tools your team and customers use in practice.',
   },
   {
     icon: <ShieldIcon />,
@@ -324,9 +324,9 @@ function Team() {
         <p className="team-intro">
           We're software professionals who've spent the last decade researching hard problems and building
           production data systems - in retail, workforce analytics, logistics, and cancer research. We started
-          Torchbearers because we kept watching companies underuse what they had already been given: the data,
+          Torchbearers because we kept watching companies underuse what was right in front of them: the data,
           context, and hard-won knowledge inside their own business. Our work is to carry that forward - to help
-          teams turn what is already theirs into something insightful, robust, and actionable.
+          teams turn their own information into something insightful, robust, and actionable.
         </p>
 
         <div className="team-list">
@@ -358,7 +358,7 @@ function FinalCta() {
         <p>
           Most subscriptions will never understand your workflows, data, clients, or team knowledge.
           Take twenty minutes on a call and we will help you spot what is scattered, what could be
-          connected, and where a custom agentic platform would actually make work easier.
+          connected, and where a custom agentic platform would make day-to-day work easier.
         </p>
 
         <a className="button button-primary cta-mail-button" href={MAIL_TO}>
