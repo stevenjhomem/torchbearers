@@ -92,19 +92,39 @@ function Hero() {
 
 const approachPoints = [
   {
-    title: 'A single source of truth',
+    title: 'Customer conversations',
     description:
-      'We build custom semantic models that translates messy database tables into clear business concepts like customer lifetime value, real-time margin, and inventory risk, so your numbers stay accurate, consistent, and algined with your business needs.',
+      'Do calls, tickets, reviews, and emails keep telling you what customers need, but no one has time to turn those patterns into better service, sales, or training?',
   },
   {
-    title: 'Talk to your data',
+    title: 'Employee know-how',
     description:
-      'Through a secure LLM integration, leaders and teams can ask plain-English questions about performance, forecasts, bottlenecks, and growth trends, with answers grounded in your business logic and seemlessly generated visualizations to back it up.',
+      'Do your best people know the right way to handle tricky situations, while new hires learn by shadowing, asking around, or guessing from old notes?',
   },
   {
-    title: 'Precision over guesswork',
+    title: 'Messy operations',
     description:
-      'Unlike generic AI, the system does not guess from vague context. It uses your business defintions to pull real numbers from real data, giving you insights you can trust to run the business.',
+      'Are the real steps for getting work done spread across spreadsheets, inboxes, task boards, documents, and someone\'s memory?',
+  },
+  {
+    title: 'Sales and follow-up',
+    description:
+      'Are good objections, winning phrases, deal notes, and follow-up details getting captured somewhere, but never becoming a repeatable playbook?',
+  },
+  {
+    title: 'Client coordination',
+    description:
+      'Do ten people work with the same client while notes, history, preferences, promises, and next steps live in different places?',
+  },
+  {
+    title: 'Meetings and decisions',
+    description:
+      'Do useful context, decisions, and next steps disappear into meeting notes no one revisits when the work starts moving?',
+  },
+  {
+    title: 'Standards and compliance',
+    description:
+      'Do people follow slightly different versions of the same process because the official policy and the real-world workflow are not in sync?',
   },
 ];
 
@@ -112,19 +132,20 @@ function Approach() {
   return (
     <section className="section approach-section section-bordered" id="approach" aria-labelledby="approach-title">
       <div className="section-inner">
-        <p className="eyebrow">The approach</p>
-        <h2 id="approach-title">Your data, empowered. Instant insights for smarter decisions.</h2>
+        <p className="eyebrow">Our Approach</p>
+        <h2 id="approach-title">Your best knowledge is probably already inside the business.</h2>
         <p className="approach-lede">
-          Most businesses are sitting on a goldmine of data they can't actually use. The information is
-          there, but it is trapped in complex systems or buried under technical bottlenecks. We bridge that gap by
-          turning raw data into a governed conversational partner for your business.
+                  Most teams do not need more vague AI talk or disconnected AI products built for the general public.
+                  They need a practical way to find what has already
+                  being said, written, decided, repeated, and learned by your team.
         </p>
 
         <div className="approach-callout">
-          <p className="eyebrow">The intelligence layer</p>
+          <p className="eyebrow">The common problem</p>
           <p>
-            We provide a bespoke, end-to-end solution that gives non-technical leaders direct access to company
-            data insights without needing to write a single line of code.
+            The answers are there, but they are scattered across tools, conversations, files, and people.
+            Torchbearers helps turn that raw material into training, standards, workflows, reporting, and
+            AI systems your team can actually use.
           </p>
         </div>
 
@@ -137,7 +158,9 @@ function Approach() {
           ))}
         </div>
 
-        <p className="approach-close">Stop waiting for reports. Start leading with clarity.</p>
+        <p className="approach-close">
+          If your team keeps saying, "we know this somewhere," that somewhere can become an agentic platform that is trained on your data.
+        </p>
       </div>
     </section>
   );
@@ -146,27 +169,27 @@ function Approach() {
 const phases = [
   {
     number: '01',
-    title: 'Data foundation',
+    title: 'Foundational layer',
     description:
-      'Stand up the warehouse, pipelines, keys, timestamps, joins, and access patterns. This is the secure data layer every dashboard, model, and agent depends on. It is your goldmine. We will keep it safe.',
+      'We start by asking the right questions and learning the business as a whole: what you need, how work gets done, where knowledge lives now, and what your people already know but have not had a good way to organize.',
   },
   {
     number: '02',
-    title: 'Semantic layer',
+    title: 'Data layer',
     description:
-      'Define the metrics, entities, relationships, and business rules your company runs on. One shared, governed semantic layer gives BI, apps, and AI agents the same source of truth.',
+      'Set up the secure data foundation: the systems, documents, notes, records, pipelines, permissions, and access patterns your dashboards, tools, and agents need to work from trusted information.',
   },
   {
     number: '03',
-    title: 'Internal agents',
+    title: 'Semantic layer',
     description:
-      'Give employees governed ways to interact with the semantic layer through chat, workflow agents, and interactive tools. They ask, analyze, decide, and act from trusted context with full observability to back it up.',
+      'Define the meanings, relationships, rules, terms, workflows, and business logic that make your information usable. This turns scattered data and knowledge into a shared language your team can trust.',
   },
   {
     number: '04',
-    title: 'Customer agents',
+    title: 'Agentic layer',
     description:
-      'Bring the same governed intelligence into your product: embedded analytics, customer-facing agents, and AI experiences that respect tenancy, permissions, and context.',
+      'Build governed agents and interfaces on top of that foundation. These can support internal teams, customer-facing experiences, or both, with answers and actions grounded in your actual business context.',
   },
 ];
 
@@ -175,9 +198,10 @@ function Process() {
     <section className="section section-alt section-bordered" id="process" aria-labelledby="process-title">
       <div className="section-inner">
         <p className="eyebrow">The process</p>
-        <h2 id="process-title">Four phases. Start at any one.</h2>
+        <h2 id="process-title">Four layers. Built around how your business actually works.</h2>
         <p className="section-lede">
-          We tailor our process to your current needs. Most clients start at phase one or two.
+          We begin by understanding the people, processes, and knowledge you already have. Then we build
+          the technical layers that make that knowledge usable.
         </p>
 
         <div className="phase-list">
