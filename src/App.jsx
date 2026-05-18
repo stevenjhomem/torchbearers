@@ -65,7 +65,7 @@ function Hero() {
     <section className="hero" id="hero" aria-labelledby="hero-title">
       <div className="section-inner">
         <p className="eyebrow eyebrow-accent">
-          Semantic and agentic data systems for small &amp; mid-market teams
+          Practical AI built on the knowledge already inside your business
         </p>
         <h1 id="hero-title">
           Your data is already valuable.
@@ -73,9 +73,10 @@ function Hero() {
           It just isn't usable yet.
         </h1>
         <p className="hero-copy">
-          We're the data team you didn't hire. We consolidate scattered information across
-          teams, tools, and documents into agentic platforms that help employees and customers
-          ask better questions, trigger useful workflows, and trust the answers they get back.
+          We're the data team you didn't hire. We pull together the information scattered across
+          your tools, files, and team conversations, then turn it into AI systems your people and
+          customers can actually rely on — for better answers, smoother workflows, and decisions
+          you can trust.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href={MAIL_TO}>
@@ -159,7 +160,7 @@ function Approach() {
         </div>
 
         <p className="approach-close">
-          If your team keeps saying, "we know this somewhere," that somewhere can become an agentic platform that is trained on your data.
+          If your team keeps saying, "we know this somewhere," we help turn that somewhere into an AI system trained on your business.
         </p>
       </div>
     </section>
@@ -169,27 +170,27 @@ function Approach() {
 const phases = [
   {
     number: '01',
-    title: 'Foundational layer',
+    title: 'Learn your business',
     description:
       'We start by asking the right questions and learning the business as a whole: what you need, how work gets done, where knowledge lives now, and what your people already know but have not had a good way to organize.',
   },
   {
     number: '02',
-    title: 'Data layer',
+    title: 'Connect your information',
     description:
-      'Set up the secure data foundation: the systems, documents, notes, records, pipelines, permissions, and access patterns your dashboards, tools, and agents need to work from trusted information.',
+      'Connect the systems, documents, notes, and records your tools and AI need to work from — with the right permissions and security in place so people only see what they should.',
   },
   {
     number: '03',
-    title: 'Semantic layer',
+    title: 'Teach the system your language',
     description:
-      'Define the meanings, relationships, rules, terms, workflows, and business logic that make your information usable. This turns scattered data and knowledge into a shared language your team can trust.',
+      'Define what your terms, rules, and workflows actually mean inside your business. This turns scattered data into a shared language your team — and the AI — can trust.',
   },
   {
     number: '04',
-    title: 'Agentic layer',
+    title: 'Build the AI tools your team actually uses',
     description:
-      'Build governed agents and interfaces on top of that foundation. These can support internal teams, customer-facing experiences, or both, with answers and actions grounded in your actual business context.',
+      'Build the tools your team and customers actually use — chat assistants, automations, internal apps — grounded in your real business context, with guardrails that keep them accurate and safe.',
   },
 ];
 
@@ -254,7 +255,7 @@ const pillars = [
     icon: <ToolsIcon />,
     title: 'We do the whole chain.',
     description:
-      'Most boutique data shops stop at dashboards. We handle the data layer, semantic layer, agentic layer, and the interfaces where employees and customers actually use them.',
+      'Most boutique data shops stop at dashboards. We go further: connecting your information, teaching the system your business, and building the AI tools your team and customers actually use.',
   },
   {
     icon: <ShieldIcon />,
@@ -266,7 +267,7 @@ const pillars = [
     icon: <KeyIcon />,
     title: 'You own it. Forever.',
     description:
-      'Open standards, your warehouse, your repo, your keys. Your semantic layer and agentic workflows should become company infrastructure, not a dependency on us. If you want support, we are happy to provide it, but you own the build and the data.',
+      'Open standards, your systems, your code, your keys. What we build should become your company\'s own infrastructure, not a dependency on us. If you want ongoing support, we are happy to provide it — but you own the build and the data.',
   },
 ];
 
